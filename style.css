@@ -159,7 +159,7 @@ header .logo
   transform: scale(0.5) translateY(-15px);
 }
 
-@media (max-width: 991px)
+@media screen and (max-width: 991px)
 {
   .showcase,
   .showcase header
@@ -172,11 +172,11 @@ header .logo
   }
   .text h3
   {
-    font-size: 8vh;
+    font-size: 7vh;
   }
-  text .p 
+  .text p 
   {
-    font-size: 4vh;
+    font-size: 3.5vh;
   }
   .text 
   {
